@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skills{
+    width: 1600px;
+    height: 700px;
+    background: #333;
+    margin: 0 auto;
+}
+.container{
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+   
+  
+}
+.skills__name{
+    color: #fff;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skills__codingBox{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills__coding{
+    width: 580px;
+display: flex;
+margin: 10px 0;
+align-items: center;
+justify-content: space-between;
+}
+.skills__codingBar{
+    width: 400px;
+    height: 30px;
+border-radius: 9px;
+    border:4px solid blue;
+}
+.skills__coding h2{
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .skills__persentOne {
+    display: block;
+    width: 95%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+ .skills__persentTwo {
+    display: block;
+    width: 90%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentThree{
+    display: block;
+    width: 87%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentFour{
+    display: block;
+    width: 90%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentFive{
+    display: block;
+    width: 80%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentSix{
+    display: block;
+    width: 85%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentSeven{
+    display: block;
+    width: 90%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentEight{
+    display: block;
+    width: 70%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentNine{
+    display: block;
+    width: 60%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persentTen{
+    display: block;
+    width: 85%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__persent11{
+    display: block;
+    width: 90%;
+    height: 95%;
+border-radius: 9px;
+
+    background: dodgerblue;
+}
+.skills__codingLeft{
+    width: 650px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    position: relative;
+    border: 2px solid dodgerblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.skills__codingLeft::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 4px solid dodgerblue;
+    box-sizing: border-box;
+    pointer-events: none; /* Kartın içeriklerini engellememek için */
+    animation: borderAnimation 5s infinite linear;
+}
+
+/* Kartın mevcut stil tanımları */
+.skills__codingRifht {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 2px solid dodgerblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    overflow: hidden; /* Border animasyonunun etkisini göstermek için */
+}
+
+/* Border animasyonu için pseudo-element */
+.skills__codingRifht::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 4px solid dodgerblue;
+    box-sizing: border-box;
+    pointer-events: none; /* Kartın içeriklerini engellememek için */
+    animation: borderAnimation 5s infinite linear;
+}
+
+/* Border animasyon tanımları */
+@keyframes borderAnimation {
+    0% {
+        transform: rotate(1);
+        border-color: dodgerblue;
+    }
+    25% {
+        transform: rotate(1.5);
+        border-color: limegreen;
+    }
+    50% {
+        transform: rotate(2);
+        border-color: crimson;
+    }
+    75% {
+        transform: rotate(1.5);
+        border-color: orange;
+    }
+    100% {
+        transform: rotate(1);
+        border-color: dodgerblue;
+    }
+}
+
+.skills__img{
+    width: 50px;
+    height: 50px;
+}

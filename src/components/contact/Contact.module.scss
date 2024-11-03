@@ -1,0 +1,113 @@
+.contactBody{
+    width: 1600px;
+    height: 700px;
+background: #333;
+    margin: 0 auto;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacFisttTit{
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+   margin: 20px 0;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contactIframe{
+    width: 100%;
+    height: 200px;
+
+}
+.contact__cardParent{
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.contact__cards{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+
+.contact__cards:first-child{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content:space-between;
+    .contact__card{
+    
+margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+    }
+    
+}
+.contactTit{
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(185, 174, 174);
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactForm{
+    width: 800px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact__inp{
+    width: 400px;
+    height: 52px;
+    margin: 10px 0;
+    color: #fff;
+    border: 1px solid gainsboro;
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.contact__cards .contact__cardd{
+    display: flex;
+    align-items: center;
+   justify-content: start;
+   flex-direction: column;
+margin-left: -40px;
+
+}
+
+.contactBtn{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.contact__textTag{
+    width: 400px;
+    height: 150px;
+    color: #fff;
+    border: 1px solid gainsboro;
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.contact__cardss{
+    margin-top: 60px;
+}
+

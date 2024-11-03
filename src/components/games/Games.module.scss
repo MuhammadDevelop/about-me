@@ -1,0 +1,59 @@
+.game{
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+    background: #333;
+}
+.container{
+    width: 1400px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gameScore{
+    width: 590px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #111;
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gameScore p {
+    color: #fff;
+    font-size: 21px;
+}
+.gameTit{
+    text-align: center;
+    color: #fff;
+   font-size: 36px;
+}
+.gameCardParent{
+    width: 900px;
+    margin: 50px auto;
+   display: grid;
+   gap: 35px;
+   grid-template-columns: repeat(4,1fr);
+}
+.gameCard{
+width: 120px;
+height: 150px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+background: rgb(173, 168, 168);
+border-radius: 16px;
+}
+.gameCard h1{
+    font-size: 21px;
+    text-align: center;
+}
+.gameInnerBox{
+    width: 250px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

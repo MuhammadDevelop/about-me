@@ -5,7 +5,7 @@ import { Button } from 'antd';
 import { DownloadOutlined } from '@ant-design/icons';
 import { FaTelegram,FaInstagramSquare  ,FaLinkedin } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
-const DOWLOAD_CV = "https://https://me-ivory-two.vercel.app//Orifjonov.pdf"
+const DOWLOAD_CV = "https://me-ivory-two.vercel.app//Orifjonov.pdf"
 const Home = () => {
   const [number, setNumber] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
